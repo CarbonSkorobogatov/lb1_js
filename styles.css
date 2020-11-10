@@ -41,9 +41,12 @@ body{
     border-radius: 5%;
 }
 
-.dropbtn:hover{
-    background-color: #1167b1;
+
+
+.dropbtn-off{
+    background-color: #0a1925dc;
 }
+
 
 
 

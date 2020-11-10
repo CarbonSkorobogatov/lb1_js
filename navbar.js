@@ -1,13 +1,17 @@
 function Click(){
-
-    document.getElementById('droplist').classList.toggle("show");
-    document.body.classList.toggle('wrapper-back')
-
-    /*---------------------------------------------------------------------------*/ 
+    Script();
     document.querySelector('.dropbtn').disabled = true;
-    document.querySelector('.dropbtn:hover').style.backgroundColor =  "#0a1925dc";
-    /*---------------------------------------------------------------------------*/ 
-
 }
 
+function CloseClick(){
+    Script();
+    document.querySelector('.dropbtn').disabled = false;
+}
+
+
+function Script(){
+    document.getElementById('droplist').classList.toggle("show");
+    document.body.classList.toggle('wrapper-back')
+    document.querySelector('.dropbtn').classList.toggle("dropbtn-off");
+}
 
