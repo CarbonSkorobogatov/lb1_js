@@ -41,14 +41,9 @@ body{
     border-radius: 5%;
 }
 
-
-
 .dropbtn-off{
     background-color: #0a1925dc;
 }
-
-
-
 
 .droplist{
     padding: 10px;
@@ -98,4 +93,11 @@ body{
 
 .buttonspace{
     text-align: end;
+}
+
+@media screen and (max-width: 900px){
+    .droplist{
+        width: 90%;
+        left: calc(5%);
+    }
 }
