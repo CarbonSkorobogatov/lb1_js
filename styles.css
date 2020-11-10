@@ -45,24 +45,54 @@ body{
     background-color: #1167b1;
 }
 
+
+
 .droplist{
-    position: absolute;
-}
+    padding: 10px;
+    position: fixed;
+    top: 0%;
+    left: calc(35%);
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width: 30%;
+    z-index: 20;
 
-.droplist ul{
-    display: inline-block;
-    border: #000000 1px solid;
-    padding-right: 20px;
-}
-
-.droplist ul li{
-    margin-left: 5px;
-}
-
-.droplist ul li:not(:last-child){
-    margin-bottom: 5px;
+    background-color: #ffffff;
+    transition: .1s;
 }
 
 .show{
-    display: none;
+    top: -50%;
+}
+
+.wrapper-back{
+    background-color: #0000003a;
+}
+
+.List-Title{
+    text-align: center;
+    padding-bottom: 10px;
+
+    font-size: 20px;
+}
+
+.text-space{
+    margin-bottom: 5px;
+}
+
+.close-btn{
+    padding: 5px 10px 5px 10px;
+    background-color: #b31919;
+    color: #ffffff;
+    border: 1px solid #b31919;
+    border-radius: 5px;
+}
+
+.close-btn:hover{
+    background-color: #ffffff;
+    color: #b31919;
+}
+
+.buttonspace{
+    text-align: end;
 }
