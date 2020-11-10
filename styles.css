@@ -60,7 +60,7 @@ body{
 }
 
 .show{
-    top: -50%;
+    top: -100%;
 }
 
 .wrapper-back{
@@ -101,3 +101,11 @@ body{
         left: calc(5%);
     }
 }
+
+/*
+@media screen and (max-height: 900px){
+    .droplist{
+        top: 0%;
+    }
+}
+*/
