@@ -22,8 +22,8 @@ function Script(){
 
 function Time(){
     setTimeout(function(){
-        if(isclose == true){
 
+        if(isclose == true){
         }else{
             Script();
             document.querySelector('.dropbtn').disabled = false;

@@ -20,9 +20,8 @@ body{
 }
 
 .center{
-    width: 90vw;
-    height: 90vh;
-
+    width: calc(100vw - 30px);
+    height: calc(100vh - 30px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,6 +86,8 @@ body{
 .text-space{
     margin-bottom: 5px;
 }
+
+
 
 .close-btn{
     padding: 5px 10px 5px 10px;
