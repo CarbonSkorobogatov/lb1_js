@@ -1,8 +1,10 @@
+let isclose = true;
+
 function Click(){
     Script();
-    /*Time();*/
     document.querySelector('.dropbtn').disabled = true;
-
+    isclose = false; 
+    Time();
 }
 
 function CloseClick(){
@@ -15,13 +17,19 @@ function Script(){
     document.getElementById('droplist').classList.toggle("show");
     document.body.classList.toggle('wrapper-back')
     document.querySelector('.dropbtn').classList.toggle("dropbtn-off");
+    isclose = true;
 }
-/*
+
 function Time(){
     setTimeout(function(){
-        Script();
+        if(isclose == true){
+
+        }else{
+            Script();
+            document.querySelector('.dropbtn').disabled = false;
+        }
     }, 10000)
 }
 
-*/
+
 
