@@ -101,9 +101,25 @@ body{
     color: #b31919;
 }
 
+.green-btn{
+    padding: 5px 10px 5px 10px;
+    color: #ffffff;
+    border: 1px solid #005500;
+    border-radius: 5px;
+    background-color: #005500;
+    margin-right: 10px;
+}
+
+.green-btn:hover{
+    color: #005500;
+    background-color: #ffffff;
+}
+
 .buttonspace{
     text-align: end;
 }
+
+
 
 @media screen and (max-width: 900px){
     .droplist{

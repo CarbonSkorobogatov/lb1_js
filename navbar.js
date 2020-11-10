@@ -1,6 +1,8 @@
 function Click(){
     Script();
+    /*Time();*/
     document.querySelector('.dropbtn').disabled = true;
+
 }
 
 function CloseClick(){
@@ -14,4 +16,12 @@ function Script(){
     document.body.classList.toggle('wrapper-back')
     document.querySelector('.dropbtn').classList.toggle("dropbtn-off");
 }
+/*
+function Time(){
+    setTimeout(function(){
+        Script();
+    }, 10000)
+}
+
+*/
 
