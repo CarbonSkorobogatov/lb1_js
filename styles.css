@@ -12,7 +12,16 @@ h1, h2, h3, h4, h5, h6, p, a{
 }
 
 li{
-list-style: none;
+    list-style: none;
+}
+
+button{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */     
+
+    cursor: pointer;
 }
 
 body{
@@ -42,6 +51,7 @@ body{
 
 .dropbtn-off{
     background-color: #0a1925dc;
+    cursor: default;
 }
 
 .droplist{
