@@ -1,22 +1,23 @@
 let isclose = true;
+let  dropbtn = document.querySelector('.dropbtn');
 
 function Click(){
     Script();
-    document.querySelector('.dropbtn').disabled = true;
+    dropbtn.disabled = true;
     isclose = false; 
     Time();
 }
 
 function CloseClick(){
     Script();
-    document.querySelector('.dropbtn').disabled = false;
+    dropbtn.disabled = false;
 }
 
 
 function Script(){
-    document.getElementById('droplist').classList.toggle("show");
+    document.querySelector('.droplist').classList.toggle("show");
     document.body.classList.toggle('wrapper-back')
-    document.querySelector('.dropbtn').classList.toggle("dropbtn-off");
+    dropbtn.classList.toggle("dropbtn-off");
     isclose = true;
 }
 
@@ -26,7 +27,7 @@ function Time(){
         if(isclose == true){
         }else{
             Script();
-            document.querySelector('.dropbtn').disabled = false;
+            dropbtn.disabled = false;
         }
     }, 10000)
 }
