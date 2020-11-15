@@ -28,6 +28,21 @@ body{
     padding: 10px;
 }
 
+
+.wrapper-off{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    position: fixed;
+    background-color: #0000003a;
+}
+
+.wrapper-on{
+    display: block;
+}
+
+
 .center{
     width: calc(100vw - 30px);
     height: calc(100vh - 30px);
@@ -69,12 +84,10 @@ body{
 }
 
 .show{
-    top: -100%;
+    top: -200%;
 }
 
-.wrapper-back{
-    background-color: #0000003a;
-}
+
 
 .Headspace{
     position: relative;
@@ -138,6 +151,7 @@ body{
         left: calc(5%);
     }
 }
+
 
 /*
 @media screen and (max-height: 900px){
